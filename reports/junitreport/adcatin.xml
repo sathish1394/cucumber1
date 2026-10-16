@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="18.314" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-15T11:56:39.525759200Z">
+<testcase classname="User have to validate the login funtionality in adactin page" name="User have to  validiate login funtionality Invalid login and valid password" time="17.509">
+<system-out><![CDATA[
+Given User have to lanch the Adactin url through chrome browser.............passed
+When User have to  pass the Invalid login and valid password and click login in Adactin.passed
+Then user can close the broswer.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login funtionality in adactin page" name="User have to  validiate login funtionality valid login and Invalid password" time="17.867">
+<system-out><![CDATA[
+Given User have to lanch the Adactin url through chrome browser.............passed
+When User have to  pass the valid login and Invalid password and click login in Adactin.passed
+Then user can close the broswer.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

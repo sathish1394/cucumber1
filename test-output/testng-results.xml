@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-15T17:26:38 IST" name="Suite" finished-at="2026-10-15T17:26:57 IST" duration-ms="19393">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.TestRunner@2002fc1d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.TestRunner@2898ac89]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.TestRunner@68267da0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-10-15T17:26:38 IST" name="Test3" finished-at="2026-10-15T17:26:56 IST" duration-ms="18415">
+      <class name="org.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.runner.TestRunner@68267da0]" started-at="2026-10-15T17:26:38 IST" name="setUpClass" finished-at="2026-10-15T17:26:39 IST" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@702b8b12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.TestRunner@68267da0]" started-at="2026-10-15T17:26:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-15T17:26:56 IST" duration-ms="16829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User have to  validiate login funtionality Invalid login and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User have to validate the login funtionality in adactin page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.TestRunner@68267da0]" started-at="2026-10-15T17:26:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-15T17:26:56 IST" duration-ms="16240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User have to  validiate login funtionality valid login and Invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User have to validate the login funtionality in adactin page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.runner.TestRunner@68267da0]" started-at="2026-10-15T17:26:56 IST" name="tearDownClass" finished-at="2026-10-15T17:26:56 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.runner.TestRunner -->
+    </test> <!-- Test3 -->
+    <test started-at="2026-10-15T17:26:38 IST" name="Test1" finished-at="2026-10-15T17:26:57 IST" duration-ms="18799">
+      <class name="org.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.runner.TestRunner@2002fc1d]" started-at="2026-10-15T17:26:38 IST" name="setUpClass" finished-at="2026-10-15T17:26:39 IST" duration-ms="1180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@306f16f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.TestRunner@2002fc1d]" started-at="2026-10-15T17:26:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-15T17:26:54 IST" duration-ms="15164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User have to  validiate login funtionality valid login and Invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User have to validate the login funtionality in adactin page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.TestRunner@2002fc1d]" started-at="2026-10-15T17:26:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-15T17:26:57 IST" duration-ms="17469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User have to  validiate login funtionality Invalid login and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User have to validate the login funtionality in adactin page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.runner.TestRunner@2002fc1d]" started-at="2026-10-15T17:26:57 IST" name="tearDownClass" finished-at="2026-10-15T17:26:57 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.runner.TestRunner -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-10-15T17:26:38 IST" name="Test2" finished-at="2026-10-15T17:26:57 IST" duration-ms="19383">
+      <class name="org.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.runner.TestRunner@2898ac89]" started-at="2026-10-15T17:26:38 IST" name="setUpClass" finished-at="2026-10-15T17:26:39 IST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b6e1eff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.TestRunner@2898ac89]" started-at="2026-10-15T17:26:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-15T17:26:57 IST" duration-ms="17716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User have to  validiate login funtionality Invalid login and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User have to validate the login funtionality in adactin page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.TestRunner@2898ac89]" started-at="2026-10-15T17:26:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-15T17:26:57 IST" duration-ms="18073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User have to  validiate login funtionality valid login and Invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User have to validate the login funtionality in adactin page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.runner.TestRunner@2898ac89]" started-at="2026-10-15T17:26:57 IST" name="tearDownClass" finished-at="2026-10-15T17:26:57 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.runner.TestRunner -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
